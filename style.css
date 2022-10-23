@@ -131,7 +131,7 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   main > aside {
     float: none;
   }
