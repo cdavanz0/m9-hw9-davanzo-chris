@@ -131,3 +131,11 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+@media screen and (max-width: 750px) {
+  main > aside {
+    float: none;
+  }
+  main > aside > nav
+    display: flex;
+    justify-content: space-around;
+}
