@@ -148,4 +148,5 @@ footer {
 @media all and (max-width:480px) {
     img {display:block;
       margin:0 
-      auto;}
+      auto;
+  }
