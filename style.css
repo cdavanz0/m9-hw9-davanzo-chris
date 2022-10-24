@@ -57,6 +57,7 @@ header a {
 
 header > nav {
   float: center;
+  display: block;
 }
 
 main a {
@@ -148,6 +149,8 @@ footer {
 @media screen and (max-width: 500px) {
   header > nav {
     display: block;
+    float: none;
+    width: 100%;
   }
   
   @media screen and (max-width: 500px) {
