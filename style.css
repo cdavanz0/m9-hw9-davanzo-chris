@@ -60,8 +60,10 @@ header > nav {
 }
 
 @media screen and (max-width: 500px) {
-  main > aside {
-    float: none;
+  main > aside::before {
+    content: "";
+    clear: both; 
+    display: block;
   }
  
 main a {
@@ -85,6 +87,7 @@ nav > a:not(:first-of-type){
 nav > a.logo {
   margin-right: auto;
   text-transform: uppercase;
+  text-align: center;
 }
 
 main > section, main > article {
@@ -104,11 +107,6 @@ main > section.hero {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-}
-
-  main > aside > nav
-    display: flex;
-    justify-content: space-around;
 }
 
 section.hero > .call-to-action {
