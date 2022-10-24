@@ -145,8 +145,14 @@ footer {
   color: var(--off-white);
 }
 
-@media all and (max-width:480px) {
-    img {display:block;
+@media screen and (max-width: 500px) {
+  header > nav {
+    display: block;
+  }
+  
+  @media screen and (max-width: 500px) {
+    img {
+      display:block;
       margin:0 
       auto;
   }
