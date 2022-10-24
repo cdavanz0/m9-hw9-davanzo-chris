@@ -23,10 +23,11 @@ body {
 
 h1 {
   font-size: 2.5rem;
+  text-align: center;
 }
 
-h1, h2 {
-  text-align: center;
+h2 {
+  text-align: left;
     margin-left: auto;
     margin-right: auto;
     width: 16em
@@ -49,6 +50,9 @@ header {
 header a {
   font-size: 0.9rem;
   color: var(--off-white);
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
 }
 
 main a {
@@ -134,6 +138,7 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
 @media screen and (max-width: 500px) {
   main > aside {
     float: none;
