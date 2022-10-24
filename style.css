@@ -93,7 +93,7 @@ main > section.hero {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 section.hero > .call-to-action {
@@ -123,7 +123,7 @@ main p {
 }
 
 main > article img {
-  float: left;
+  float: center;
   width: 300px;
   height: auto;
   margin-right: 24px;
