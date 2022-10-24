@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  text-align: left;
+  text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 28em
@@ -56,15 +56,20 @@ header a {
 }
 
 header > nav {
-  float: right;
+  float: center;
 }
 
+@media screen and (max-width: 500px) {
+  main > aside {
+    float: none;
+  }
+ 
 main a {
   color: var(--danger-color);
 }
 
 main > article, nav{
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -83,9 +88,10 @@ nav > a.logo {
 }
 
 main > section, main > article {
-  margin-bottom: 96px;
+  margin-bottom: 48px;
   box-shadow: 4px 4px 10px var(--gray);
   background-color: var(--white);
+  text-align: left;
 }
 
 main > section.hero {
@@ -98,6 +104,11 @@ main > section.hero {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+}
+
+  main > aside > nav
+    display: flex;
+    justify-content: space-around;
 }
 
 section.hero > .call-to-action {
@@ -130,7 +141,7 @@ main > article img {
   float: center;
   width: 300px;
   height: auto;
-  margin-right: 24px;
+  margin-right: auto;
   margin-bottom: 6px;
 }
 
@@ -143,11 +154,4 @@ footer {
   color: var(--off-white);
 }
 
-@media screen and (max-width: 500px) {
-  main > aside {
-    float: none;
-  }
-  main > aside > nav
-    display: flex;
-    justify-content: space-around;
-}
+
