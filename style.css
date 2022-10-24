@@ -30,7 +30,6 @@ h2 {
   text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 28em
 }
 
 a {
@@ -126,7 +125,7 @@ main p {
 
 main > article img {
   float: center;
-  width: 300px;
+  width: 600px;
   height: auto;
   margin-right: 34px;
   margin-bottom: 6px;
