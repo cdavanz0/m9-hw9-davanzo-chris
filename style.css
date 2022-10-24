@@ -148,7 +148,6 @@ footer {
 
 @media screen and (max-width: 750px) {
   header > nav {
-    display: block;
     float: none;
     width: 100%;
   }
