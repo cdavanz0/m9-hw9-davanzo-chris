@@ -64,7 +64,7 @@ header > nav {
     content: "";
     clear: both; 
     display: block;
-  }
+ }
  
 main a {
   color: var(--danger-color);
@@ -139,7 +139,7 @@ main > article img {
   float: center;
   width: 300px;
   height: auto;
-  margin-right: auto;
+  margin-right: 34px;
   margin-bottom: 6px;
 }
 
