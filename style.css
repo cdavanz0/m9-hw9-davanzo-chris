@@ -59,12 +59,11 @@ header > nav {
   float: center;
 }
 
-@media screen and (max-width: 500px) {
-  main > aside::before {
-    content: "";
-    clear: both; 
-    display: block;
- }
+@media all and (max-width:480px) {
+    img {display:block;
+      margin:0 
+      auto;
+}
  
 main a {
   color: var(--danger-color);
@@ -151,5 +150,3 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
-
-
