@@ -55,11 +55,6 @@ header a {
   width: 8em
 }
 
-header > nav {
-  float: center;
-  display: block;
-}
-
 main a {
   color: var(--danger-color);
 }
